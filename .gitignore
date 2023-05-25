@@ -1,17 +1,89 @@
-node_modules/
-.expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+# Logs
+logs
+*.log
+
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Dependency directories
+/native-base
+/react-navigation
+/firebase
+
+# Built files
+/dist
+/build
+/temp
+/out
+/.next
+/.nuxt
+/yarn-error.log
+/.expo
+/.expo-shared
+.expo
+
+# Expo
+/.expo
+/.expo-shared
+
+# Build artifacts
+/*.apk
+/*.ipa
+/.expo
+/.expo-shared
+
+# Firebase
+/.firebase
+/.firebaserc
+/.env.local
+/.env.production
+
+# Visual Studio Code
+.vscode
+*.code-workspace
+.vs
+
+# IDE-specific files
+.idea
+*.iml
+*.ipr
+*.iws
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+# Android
+**/android/gradle.properties
+**/android/gradle-local.properties
+
+# iOS
+**/ios/Podfile.lock
+
+# Generated files
+yarn.lock
+package-lock.json
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+
+# Expo Web
+/web-build
+
+# Android
+/android
+/gradle
+
+# iOS
+/ios/Pods
+/ios/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
